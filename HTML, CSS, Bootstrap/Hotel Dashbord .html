@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Menu Dashbord</title>
+    <!-- Bootstrap Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .menu-card img {
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .menu-card {
+            border-radius: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"> Hotel Menu Dashbord</a>
+        </div>
+    </nav>
+
+
+    <!-- hero section  -->
+    <div class="container mt-4">
+        <div class="p-4 bg-white rounded shadow">
+            <h2 class="text-center text-peimary fw-bold"> Hotel Paradise</h2>
+            <p class="text-center"> Choose from our delicious categories!</p>
+        </div>
+    </div>
+
+    <!-- Category crds  -->
+    <div class="container mt-4">
+        <div class="row g-4">
+
+
+            <!-- Breakfast -->
+            <div class="col-md-4">
+                <div class="card menu-card shadow p-2">
+                    <img src="breakfast1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-peimary"> Breakfast</h5>
+                        <p>Pancakes, Omelatte, toast, Coffee</p>
+                        <button class="btn btn-primary w-100"> View Items</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lunch  -->
+            <div class="col-md-4">
+                <div class="card menu-card shadow p-2">
+                    <img src="Lunch.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-success">Lunch</h5>
+                        <p>Thali, Fried Rice, Chicken Curry, Roti</p>
+                        <button class="btn btn-success w-100">View Items</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dinner -->
+            <div class="col-md-4">
+                <div class="card menu-card shadow p-2">
+                    <img src="Dinner.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-denger"> Dinner</h5>
+                        <p>Briyani, Noodles, Dal Tadka, Soup</p>
+                        <button class="btn btn-danger w-100"> View Items</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menu Item Section  -->
+    <div class="container mt-5">
+        <h3 class="fw-bold">Popular Menu Items</h3>
+
+        <div class="row g-4 mt-2">
+
+            <div class="col-md-3">
+                <div class="card shadow menu-card p-2">
+                    <img src="Pasta.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="card-title">Creamy Pasta</h6>
+                        <p class="text-muted">₹180</p>
+                        <button class="btn btn-primary w-100"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow menu-card p-2">
+                    <img src="sandwich.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="card-title"> Veg Sandwich</h6>
+                        <p class="text-muted">₹90</p>
+                        <button class="btn btn-primary w-100">Order Now </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3">
+                <div class="card shadow menu-card p-2">
+                    <img src="corn soup.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="card-title"> Sweet Corn Soup</h6>
+                        <p class="text-muted"> ₹120</p>
+                        <button class="btn btn-primary w-100"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow menu-card p-2">
+                    <img src="Briyani.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h6 class="card-title">Hyderabadi Briyani</h6>
+                        <p class="text-muted">₹230</p>
+                        <button class="btn btn-primary w-100"> Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer class="bg-dark text-white text-center p-3 mt-5">
+        <p class="m-0">@ 2025 Hotel Paradise | All Right Reserved000</p>
+    </footer>
+</body>
+
+</html>
